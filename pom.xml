@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.przemo</groupId>
+    <artifactId>Wihajster</artifactId>
+    <version>0.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Wihajster</name>
+
+    <properties>
+        <maven.compiler.source>10</maven.compiler.source>
+        <maven.compiler.target>10</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>src/WHEEntity</module>
+        <module>src/WHEDataAccess</module>
+        <module>src/WHERestServices</module>
+        <module>src/WHEServices</module>
+        <module>src/WHEApplication</module>
+        <module>src/WHEServicesWAR</module>
+
+        <module>setup/docker</module>
+    </modules>
+
+</project>
